@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Enjoy This Offer Today",
+    "subtitle": "New Collection <br>Sale 40%",
+    "image": "https://htmldemo.net/flone/flone/assets/img/slider/slider-19-1.jpg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 2,
+    "title": "Enjoy This Offer Today",
+    "subtitle": "New Collection <br>Sale 20%",
+    "image": "https://htmldemo.net/flone/flone/assets/img/slider/slider-19-2.jpg",
+    "url": "/shop-grid-standard"
+  }
+]

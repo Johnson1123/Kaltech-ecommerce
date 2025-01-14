@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "image": "https://htmldemo.net/flone/flone/assets/img/banner/banner-40.png",
+    "title": "Men Fashion Shop",
+    "subtitle": "Choose Your Products Here",
+    "link": "/shop",
+    "textAlign": "right"
+  },
+  {
+    "id": 2,
+    "image": "https://htmldemo.net/flone/flone/assets/img/banner/banner-41.png",
+    "title": "Women Fashion Shop",
+    "subtitle": "Choose Your Products Here",
+    "link": "/shop",
+    "textAlign": "left"
+  }
+]

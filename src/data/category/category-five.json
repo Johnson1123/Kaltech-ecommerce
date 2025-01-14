@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "https://htmldemo.net/flone/flone/assets/img/banner/banner-43.png",
+    "title": "Wooden Chair (06)",
+    "url": "/shop"
+  },
+  {
+    "id": 2,
+    "image": "https://htmldemo.net/flone/flone/assets/img/banner/banner-44.png",
+    "title": "Sofa Collection (10)",
+    "url": "/shop"
+  },
+  {
+    "id": 3,
+    "image": "https://htmldemo.net/flone/flone/assets/img/banner/banner-45.png",
+    "title": "Wooden Bed (06)",
+    "url": "/shop"
+  }
+]
