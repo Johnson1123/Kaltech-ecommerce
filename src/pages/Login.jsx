@@ -2,9 +2,9 @@ import React, { Fragment } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
-import SEO from "../../components/seo";
-import LayoutOne from "../../layouts/LayoutOne";
-import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+import SEO from "../components/seo";
+import LayoutOne from "../layouts/LayoutOne";
+import Breadcrumb from "../wrappers/breadcrumb/Breadcrumb";
 
 const Login = () => {
   let { pathname } = useLocation();
@@ -63,7 +63,9 @@ const Login = () => {
                                 <div className="login-toggle-btn">
                                   <input type="checkbox" />
                                   <label className="ml-10">Remember me</label>
-                                  <Link to={import.meta.env.VITE_PUBLIC_URL + "/"}>
+                                  <Link
+                                    to={import.meta.env.VITE_PUBLIC_URL + "/"}
+                                  >
                                     Forgot Password?
                                   </Link>
                                 </div>
