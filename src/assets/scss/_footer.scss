@@ -2,7 +2,8 @@
 
 .copyright {
   .footer-logo {
-    margin-top: 41px;
+    width: 50px;
+    // margin-top: 41px;
     margin-bottom: 12px;
     @media #{$xs-layout} {
       margin-top: 0;
@@ -16,7 +17,7 @@
   }
   p {
     letter-spacing: 0.9px;
-
+    font-size: 12px;
     color: #313131;
     a {
       color: #313131;

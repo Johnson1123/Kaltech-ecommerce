@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import SEO from "../components/seo";
-import LayoutOne from "../layouts/LayoutOne";
-import HeroSliderFifteen from "../wrappers/hero-slider/HeroSliderFifteen";
+import Layout from "../layouts/Layout";
+import HeroSlider from "../wrappers/hero-slider/HeroSlider";
 import TabProductNine from "../wrappers/product/TabProductNine";
 import BannerEleven from "../wrappers/banner/BannerEleven";
 import CountDownThree from "../wrappers/countdown/CountDownThree";
@@ -15,13 +15,13 @@ const HomeFashionSeven = () => {
         titleTemplate="Fashion Home"
         description="Fashion home of flone react minimalist eCommerce template."
       />
-      <LayoutOne
+      <Layout
         headerContainerClass="container-fluid"
         headerPaddingClass="header-padding-2"
         headerTop="visible"
       >
         {/* hero slider */}
-        <HeroSliderFifteen />
+        <HeroSlider />
         {/* tab product */}
         <TabProductNine
           category="fashion"
@@ -34,7 +34,7 @@ const HomeFashionSeven = () => {
         <CountDownThree
           spaceTopClass="pt-100"
           spaceBottomClass="pb-100"
-          dateTime="November 13, 2023 12:12:00"
+          dateTime="December 23, 2025 12:12:00"
           countDownImage="https://htmldemo.net/flone/flone/assets/img/banner/deal-2.png"
         />
         {/* feature icon */}
@@ -51,7 +51,7 @@ const HomeFashionSeven = () => {
           spaceBottomClass="pb-100"
           subscribeBtnClass="dark-red-subscribe"
         />
-      </LayoutOne>
+      </Layout>
     </Fragment>
   );
 };

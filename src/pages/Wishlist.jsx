@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
 import { getDiscountPrice } from "../helpers/product";
 import SEO from "../components/seo";
-import LayoutOne from "../layouts/LayoutOne";
+import LayoutOne from "../layouts/Layout";
 import Breadcrumb from "../wrappers/breadcrumb/Breadcrumb";
 import { addToCart } from "../store/slices/cart-slice";
 import {

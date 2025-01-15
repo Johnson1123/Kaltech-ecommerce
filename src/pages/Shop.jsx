@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { useLocation } from "react-router-dom";
 import { getSortedProducts } from "../helpers/product";
 import SEO from "../components/seo";
-import LayoutOne from "../layouts/LayoutOne";
+import LayoutOne from "../layouts/Layout";
 import Breadcrumb from "../wrappers/breadcrumb/Breadcrumb";
 import ShopSidebar from "../wrappers/product/ShopSidebar";
 import ShopTopbar from "../wrappers/product/ShopTopbar";

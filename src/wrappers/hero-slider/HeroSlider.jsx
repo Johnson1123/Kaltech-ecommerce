@@ -15,7 +15,7 @@ const params = {
   autoHeight: false,
 };
 
-const HeroSliderFifteen = () => {
+const HeroSlider = () => {
   return (
     <div className="slider-area">
       <div className="slider-active nav-style-1">
@@ -33,4 +33,4 @@ const HeroSliderFifteen = () => {
   );
 };
 
-export default HeroSliderFifteen;
+export default HeroSlider;

@@ -3,8 +3,9 @@ import clsx from "clsx";
 import { Link } from "react-router-dom";
 import FooterCopyright from "../../components/footer/FooterCopyright";
 import FooterNewsletter from "../../components/footer/FooterNewsletter";
+import { BlkIcon } from "../../assets/img/logo";
 
-const FooterOne = ({
+const Footer = ({
   backgroundColorClass,
   spaceTopClass,
   spaceBottomClass,
@@ -34,10 +35,7 @@ const FooterOne = ({
             }`}
           >
             {/* footer copyright */}
-            <FooterCopyright
-              footerLogo="/assets/img/logo/logo.png"
-              spaceBottomClass="mb-30"
-            />
+            <FooterCopyright footerLogo={BlkIcon} spaceBottomClass="mb-30" />
           </div>
           <div
             className={`${
@@ -56,7 +54,7 @@ const FooterOne = ({
                     </Link>
                   </li>
                   <li>
-                    <Link to={import.meta.env.VITE_PUBLIC_URL + "#/"}>
+                    <Link to={import.meta.env.VITE_PUBLIC_URL + "/contact"}>
                       Store location
                     </Link>
                   </li>
@@ -190,7 +188,7 @@ const FooterOne = ({
   );
 };
 
-FooterOne.propTypes = {
+Footer.propTypes = {
   backgroundColorClass: PropTypes.string,
   containerClass: PropTypes.string,
   extraFooterClass: PropTypes.string,
@@ -201,4 +199,4 @@ FooterOne.propTypes = {
   spaceRightClass: PropTypes.string,
 };
 
-export default FooterOne;
+export default Footer;

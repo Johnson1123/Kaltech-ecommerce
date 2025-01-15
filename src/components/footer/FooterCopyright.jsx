@@ -7,19 +7,19 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
     <div className={clsx("copyright", spaceBottomClass, colorClass)}>
       <div className="footer-logo">
         <Link to={import.meta.env.VITE_PUBLIC_URL + "/"}>
-          <img alt="" src={import.meta.env.VITE_PUBLIC_URL + footerLogo} />
+          <img alt="" src={footerLogo} />
         </Link>
       </div>
       <p>
         &copy; {new Date().getFullYear()}{" "}
         <a
-          href="https://hasthemes.com"
+          href="http://kaltechconsultancy.tech/about"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Flone
+          | All Rights Reserved
         </a>
-        .<br /> All Rights Reserved
+        .<br /> Designed by Kaltech
       </p>
     </div>
   );

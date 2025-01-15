@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { useLocation } from "react-router-dom";
 import Accordion from "react-bootstrap/Accordion";
 import SEO from "../components/seo";
-import LayoutOne from "../layouts/LayoutOne";
+import LayoutOne from "../layouts/Layout";
 import Breadcrumb from "../wrappers/breadcrumb/Breadcrumb";
 
 const Account = () => {

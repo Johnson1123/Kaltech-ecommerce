@@ -11,6 +11,10 @@ import cartOffWhite from "./cart-off-white.png";
 import userWhite from "./user-white.png";
 import userBlack from "./user-black.png";
 import menu from "./menu.png";
+import instagramFilled from "./instagram-fill.png";
+import facebookFilled from "./facebook-fill.png";
+import linkedinFilled from "./linkedin-fill.png";
+
 export {
   facebook,
   instagram,
@@ -24,4 +28,7 @@ export {
   userBlack,
   userWhite,
   menu,
+  instagramFilled,
+  facebookFilled,
+  linkedinFilled,
 };
